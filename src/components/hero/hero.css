@@ -1,0 +1,54 @@
+/* .main {
+  height: 100vh;
+}
+ */
+.mask,
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+/* .mask p,
+.body p {
+  width: 1000px;
+  padding: 40px;
+} */
+
+/* .mask span,
+.body span {
+  color: #ec4e39;
+} */
+
+.mask {
+  mask-image: url('../../app/assets/mask.svg');
+  mask-repeat: no-repeat;
+  mask-size: 40px;
+/*   mask-position: 50%;
+  mask-size: 500px; */
+  background: #ec4e39;
+  position: absolute;
+  color: black;
+}
+
+.rotating-text {
+  animation: rotate-animation 10s linear infinite;
+  margin-top: 10px;
+  
+}
+
+
+
+@keyframes rotate-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg); /* Rotates the text 360 degrees */
+  }
+}
+
