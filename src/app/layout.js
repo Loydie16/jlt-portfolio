@@ -1,4 +1,4 @@
-import { Inter, Bodoni_Moda, Bruno_Ace_SC } from "next/font/google";
+import { Inter, Bodoni_Moda, Bruno_Ace_SC, Nunito_Sans } from "next/font/google";
 import localFont from "next/font/local"
 import "./globals.css";
 
@@ -9,6 +9,12 @@ const bodoni_moda = Bodoni_Moda({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-bodoni-moda",
+});
+
+const nunito_sans = Nunito_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-nunito-sans",
 });
 
 const bisdak = localFont({
@@ -34,7 +40,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${bodoni_moda.variable} ${bruno_ace.variable} ${bisdak.variable}`}
+        className={`${inter.className} ${bodoni_moda.variable} ${bruno_ace.variable} ${bisdak.variable} ${nunito_sans.variable} `}
       >
         {children}
       </body>

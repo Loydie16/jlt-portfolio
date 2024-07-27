@@ -6,13 +6,13 @@ import "./hero.css";
 import useMousePosition from "../../app/utils/useMousePosition";
 import ReactCurvedText from "react-curved-text";
 import scrollDownSVG from "../../app/assets/scroll-down.json";
-import Lottie from "lottie-react";
+/* import Lottie from "lottie-react"; */
 
 
 export default function Hero() {
   const [isHovered, setIsHovered] = useState(false);
   const { x, y } = useMousePosition();
-  const size = isHovered ? 500 : 40;
+  const size = isHovered ? 400 : 0;
 
   // Single handler function for mouse enter and leave
   const handleMouseHover = (hoverState) => {
@@ -21,9 +21,9 @@ export default function Hero() {
 
   return (
     <>
-      <main className="flex-col min-h-screen w-full bg-[#f5f0ec]  dark:bg-grid-black/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center py-10">
+      <main className="flex-col min-h-screen w-full bg-[#edede5]  bg-grid-black/[0.05] relative flex items-center justify-center py-1">
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#f5f0ec] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)]"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#edede5] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
 
         {/* For the mask */}
         <motion.div
@@ -70,7 +70,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 2.5, ease: "easeOut", delay: 2.5 }}
             >
-              THIS IS WHERE I LIVED
+              THIS IS WHERE I LIVE
             </motion.p>
           </div>
 
@@ -143,7 +143,7 @@ export default function Hero() {
             />
             <div className="absolute inset-0 flex items-center justify-center">
               {/* Replace the src with your icon's path */}
-              <Lottie animationData={scrollDownSVG} loop={true}/>
+              {/* <Lottie animationData={scrollDownSVG} loop={true}/> */}
             </div>
           </motion.div>
         </div>

@@ -2,7 +2,7 @@
   height: 100vh;
 }
  */
-.mask,
+/* .mask,
 .body {
   width: 100%;
   height: 100%;
@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   cursor: default;
-}
+} */
 
 /* .mask p,
 .body p {
@@ -24,16 +24,16 @@
   color: #ec4e39;
 } */
 
-.mask {
+/* .mask {
   mask-image: url('../../app/assets/mask.svg');
   mask-repeat: no-repeat;
   mask-size: 40px;
-/*   mask-position: 50%;
-  mask-size: 500px; */
+  mask-position: 50%;
+  mask-size: 500px;
   background: #ec4e39;
   position: absolute;
   color: black;
-}
+} */
 
 .rotating-text {
   animation: rotate-animation 10s linear infinite;

@@ -42,6 +42,7 @@ module.exports = {
     fontFamily: {
       bodoni_moda: ["var(--font-bodoni-moda)"],
       bisdak: ["var(--font-bisdak)"],
+      nunito_sans: ["var(--font-nunito-sans)"],
     },
   },
   plugins: [
