@@ -5,8 +5,8 @@ import useMousePosition from "../../app/utils/useMousePosition";
 import { motion } from "framer-motion";
 
 
-const paragraph = "Graduate of Computer Engineering adaw awd "
-const paragraph1 = "from Colegio De Muntinlupa school at sucat"
+const paragraph = "Graduate of Computer Engineering adaw awd AWDWADWADADADWADAWDASAWDA DWADAWDASDWAD AWD AWDASA WD AWDASA WWD ASD AWD ADSA AW AWDASA"
+const paragraph1 = "from Colegio De Muntinlupa school at sucatAWD AWDAW DWA AWD ADAD AWDAW AW AWDWADWADAWDA AWDA DWADWADWA DWA AWD AAWDADAAWDWADWA "
 
 export default function About() {
 
@@ -17,7 +17,7 @@ export default function About() {
   const size = isHovered ? 400 : 0;
 
   return (
-    <section className="flex-col about-section flex items-center p-4 md:p-10 justify-center bg-[#edede5] font-nunito_sans ">
+    <section className="flex-col about-section flex items-center p-4 md:p-20 justify-center bg-[#edede5] font-nunito_sans ">
       <p className="font-extrabold text-xl tracking-[4px] text-start w-full mb-4">
         <span className="text-[#ec4e39]">ABOUT</span> ME
       </p>
