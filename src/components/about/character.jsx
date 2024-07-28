@@ -11,7 +11,10 @@ export default function Paragraph({ paragraph }) {
 
   const words = paragraph.split(" ");
   return (
-    <p ref={container} className="flex text-4xl sm:text-5xl md:text-7xl lg:text-8xl leading-1 font-bold  text-black flex-wrap">
+    <p
+      ref={container}
+      className="flex text-4xl sm:text-5xl lg:text-6xl xl:text-8xl leading-1 font-bold  text-[#5c5b5b] flex-wrap"
+    >
       {words.map((word, i) => {
         const start = i / words.length;
         const end = start + 1 / words.length;
@@ -29,7 +32,7 @@ const Word = ({ children, progress, range }) => {
   const amount = range[1] - range[0];
   const step = amount / children.length;
   return (
-    <span className="relative mr-4">
+    <span className="relative mr-4 ">
       {children.split("").map((char, i) => {
         const start = range[0] + i * step;
         const end = range[0] + (i + 1) * step;

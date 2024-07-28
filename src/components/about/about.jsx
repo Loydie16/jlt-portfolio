@@ -5,8 +5,10 @@ import useMousePosition from "../../app/utils/useMousePosition";
 import { motion } from "framer-motion";
 
 
-const paragraph = "Graduate of Computer Engineering adaw awd AWDWADWADADADWADAWDASAWDA DWADAWDASDWAD AWD AWDASA WD AWDASA WWD ASD AWD ADSA AW AWDASA"
-const paragraph1 = "from Colegio De Muntinlupa school at sucatAWD AWDAW DWA AWD ADAD AWDAW AW AWDWADWADAWDA AWDA DWADWADWA DWA AWD AAWDADAAWDWADWA "
+const paragraph =
+  "A Computer Engineering graduate passionate about creating user-friendly and visually appealing websites, focusing on innovative design.";
+const paragraph1 =
+  "With experience as a web developer intern, I’ve gained valuable skills in web design and development. Check my resume for more details.";
 
 export default function About() {
 
@@ -17,12 +19,12 @@ export default function About() {
   const size = isHovered ? 400 : 0;
 
   return (
-    <section className="flex-col about-section flex items-center p-4 md:p-20 justify-center bg-[#edede5] font-nunito_sans ">
+    <section className="flex-col flex items-center p-4 md:p-20 xl:px-40 justify-center bg-[#edede5] font-nunito_sans">
       <p className="font-extrabold text-xl tracking-[4px] text-start w-full mb-4">
         <span className="text-[#ec4e39]">ABOUT</span> ME
       </p>
       <motion.div
-        className="mask z-10 mt-12 px-10"
+        className="mask z-10 mt-12 px-6"
         animate={{
           WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
 
@@ -31,7 +33,7 @@ export default function About() {
         transition={{ type: "tween", ease: "backOut", duration: 0.5 }}
       >
         <p
-          className=" flex text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold  text-black flex-wrap"
+          className=" flex text-4xl sm:text-5xl lg:text-6xl xl:text-8xl md:m-20 xl:mx-32 font-bold   flex-wrap  "
           onMouseEnter={() => {
             setIsHovered(true);
           }}
@@ -43,7 +45,7 @@ export default function About() {
         </p>
       </motion.div>
 
-      <div className="body">
+      <div className="body ">
         <Character paragraph={paragraph} />
       </div>
     </section>

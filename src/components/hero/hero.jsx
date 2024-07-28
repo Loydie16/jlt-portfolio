@@ -96,7 +96,7 @@ export default function Hero() {
               className="text-[10vw]  text-[#8e6e35] font-bodoni_moda"
               initial={{ opacity: 0, y: 300 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 3.5 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 3.7 }}
             >
               JON LOYD
             </motion.span>
@@ -104,7 +104,7 @@ export default function Hero() {
               className="text-[15vw]"
               initial={{ opacity: 0, y: 300 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 3.5}}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 3.7}}
             >
               TALAGTAG
             </motion.span>
@@ -142,8 +142,14 @@ export default function Hero() {
               svgProps={{ className: "rotating-text" }}
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              {/* Replace the src with your icon's path */}
-              {/* <Lottie animationData={scrollDownSVG} loop={true}/> */}
+              
+             {/*  <Image
+                src="../../app/assets/scroll-down.svg"
+                alt="Scroll down arrow"
+                width={60}
+                height={60}
+                className="pointer-events-none"
+              /> */}
             </div>
           </motion.div>
         </div>
