@@ -32,7 +32,7 @@ export default function Hero() {
             WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
             WebkitMaskSize: `${size}px`,
           }}
-          transition={{ type: "tween", ease: "backOut", duration: 0.5 }}
+          transition={{ type: "tween", ease: "backOut", duration: 0.3 }}
         >
           <div
             className="flex flex-col items-center justify-center tracking-tighter leading-[0.76] font-bodoni_moda"
@@ -84,7 +84,7 @@ export default function Hero() {
         <div className="body flex flex-col items-center justify-center gap-10 ">
           <div className="flex flex-col items-center justify-center tracking-tighter leading-[0.76] font-bodoni_moda">
             <motion.p
-              className="text-xs sm:text-lg md:text-2xl font-bisdak mb-10"
+              className="text-xs sm:text-lg md:text-2xl font-bisdak mb-10 text-[#5c5b5b]"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 2.5, ease: "easeOut", delay: 4.5 }}
@@ -101,15 +101,15 @@ export default function Hero() {
               JON LOYD
             </motion.span>
             <motion.span
-              className="text-[15vw]"
+              className="text-[15vw] text-[#5c5b5b]"
               initial={{ opacity: 0, y: 300 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 3.7}}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 3.7 }}
             >
               TALAGTAG
             </motion.span>
             <motion.p
-              className="text-xs sm:text-lg md:text-2xl font-bisdak mt-10"
+              className="text-xs sm:text-lg md:text-2xl font-bisdak mt-10 text-[#5c5b5b]"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 2.5, ease: "easeOut", delay: 5 }}
@@ -142,8 +142,7 @@ export default function Hero() {
               svgProps={{ className: "rotating-text" }}
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              
-             {/*  <Image
+              {/*  <Image
                 src="../../app/assets/scroll-down.svg"
                 alt="Scroll down arrow"
                 width={60}

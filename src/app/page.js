@@ -2,7 +2,9 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import Hero from "../components/hero/hero.jsx";
-import About from "@/components/about/about.jsx";
+import About from "../components/about/about.jsx";
+import Techstack from "../components/techstack/techstack.jsx";
+import TechStackMobile from "../components/techstack/techstack-mobile.jsx";
 import AnimatedCursor from "react-animated-cursor";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "../components/preloader/preloader.jsx";
@@ -34,6 +36,8 @@ export default function App() {
       </AnimatePresence>
       <Hero />
       <About />
+      <Techstack />
+      <TechStackMobile />
       <AnimatedCursor />
     </>
   );

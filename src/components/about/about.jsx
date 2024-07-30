@@ -19,8 +19,8 @@ export default function About() {
   const size = isHovered ? 400 : 0;
 
   return (
-    <section className="flex-col flex items-center p-4 md:p-20 xl:px-40 justify-center bg-[#edede5] font-nunito_sans">
-      <p className="font-extrabold text-xl tracking-[4px] text-start w-full mb-4">
+    <section className="min-h-screen flex-col flex items-center p-4 md:p-20 xl:px-40 justify-center bg-[#edede5] font-nunito_sans">
+      <p className="font-extrabold text-xl tracking-[4px] text-start w-full mb-4 text-[#5c5b5b]">
         <span className="text-[#ec4e39]">ABOUT</span> ME
       </p>
       <motion.div
@@ -30,7 +30,7 @@ export default function About() {
 
           WebkitMaskSize: `${size}px`,
         }}
-        transition={{ type: "tween", ease: "backOut", duration: 0.5 }}
+        transition={{ type: "tween", ease: "backOut", duration: 0.3 }}
       >
         <p
           className=" flex text-4xl sm:text-5xl lg:text-6xl xl:text-8xl md:m-20 xl:mx-32 font-bold   flex-wrap  "
