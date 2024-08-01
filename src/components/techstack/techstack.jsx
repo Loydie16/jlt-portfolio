@@ -26,8 +26,8 @@ export default function Home() {
       name: [
         "HTML5",
         "CSS3",
-        "React JS",
-        "Next JS",
+        "ReactJS",
+        "NextJS",
         "Vite",
         "Tailwind",
         "Bootstrap",
@@ -38,14 +38,14 @@ export default function Home() {
     {
       title1: "Back",
       title2: "End",
-      src: ["Express JS", "nodejs"],
-      name: ["Expres JS", "Node JS"],
+      src: ["ExpressJS", "nodejs"],
+      name: ["ExpresJS", "NodeJS"],
     },
     {
       title1: "Data",
       title2: "base",
       src: ["firebase", "mongodb", "appwrite", "mysql"],
-      name: ["Firebase", "Mongo DB", "AppWrite", "MySQL"],
+      name: ["Firebase", "MongoDB", "AppWrite", "MySQL"],
     },
     {
       title1: "Dev",
@@ -56,7 +56,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen hidden lg:flex flex-col justify-center items-center bg-[#edede5] text-[#5c5b5b]">
+    <section className="min-h-screen hidden lg:flex flex-col justify-center items-center bg-[#edede5] text-[#5c5b5b] pb-20">
       <p className="text-start mt-20 mb-10 w-[80%] text-7xl lg:text-9xl font-bold  font-nunito_sans text-[#5c5b5b]">
         Tech <span className="text-[#ec4e39]">Stack</span>
       </p>
@@ -65,6 +65,6 @@ export default function Home() {
           <Title key={index} project={project} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
