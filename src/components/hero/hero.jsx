@@ -43,7 +43,7 @@ export default function Hero() {
               className="text-xs sm:text-lg md:text-2xl font-bisdak mb-10"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 2 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 4.5 }}
             >
               BUT CAN DO FULLSTACK
             </motion.p>
@@ -52,23 +52,23 @@ export default function Hero() {
               className="text-[10vw]  text-[#8e6e35] font-bodoni_moda"
               initial={{ opacity: 0, y: 300 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut" }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 3.7 }}
             >
-              FIRST NAME
+              YOU CAN CALL
             </motion.span>
             <motion.span
               className="text-[15vw]"
               initial={{ opacity: 0, y: 300 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut" }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 3.7 }}
             >
-              LASTNAME
+              ME &quot;LOYD&quot;
             </motion.span>
             <motion.p
               className="text-xs sm:text-lg md:text-2xl font-bisdak mt-10"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 2.5 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 5 }}
             >
               THIS IS WHERE I LIVE
             </motion.p>

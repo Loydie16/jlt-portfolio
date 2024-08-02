@@ -38,7 +38,7 @@ export default function Home() {
     {
       title1: "Back",
       title2: "End",
-      src: ["ExpressJS", "nodejs"],
+      src: ["js", "nodejs"],
       name: ["ExpresJS", "NodeJS"],
     },
     {

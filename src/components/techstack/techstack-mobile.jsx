@@ -70,7 +70,7 @@ export default function Home() {
                   className="flex flex-col gap-1 bg-[#fefefc] p-4 w-full items-center justify-center rounded-xl shadow-md"
                   key={iconIndex}
                 >
-                  <StackIcon name={iconSrc} className="w-10" />
+                  <StackIcon name={iconSrc} className="w-8" />
                   <h1 className="text-md text-center font-medium">
                     {project.name[iconIndex]}
                   </h1>
