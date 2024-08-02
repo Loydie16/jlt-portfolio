@@ -8,6 +8,8 @@ import DogApp from "../../app/assets/project-imgs/dog-app.png";
 import Studev from "../../app/assets/project-imgs/studev.png";
 import Quizvia from "../../app/assets/project-imgs/quizvia.png";
 import Dianotes from "../../app/assets/project-imgs/dianotes.png";
+import NutrikioskMobileApp from "../../app/assets/project-imgs/NutrikioskMobileApp.png";
+import AorifyMobileApp from "../../app/assets/project-imgs/AorifyMobileApp.png";
 import Button from "../../components/button/button";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
@@ -55,8 +57,26 @@ const projects = [
       "React",
       "Node JS",
     ],
-    link: "https://example.com/dianotes",
-    github: "https://github.com/username/dianotes",
+    link: "https://dianotes.vercel.app/",
+    github: "https://github.com/Loydie16/Dianotes",
+  },
+  {
+    title: "Nutrikiosk Mobile App",
+    description:
+      "This is the mobile application that I developed for our thesis project. It aims to provide users with nutritional information and help them maintain a healthy lifestyle.",
+    image: NutrikioskMobileApp,
+    techStack: ["React Native", "Expo", "Nativewind", "Firebase"],
+    link: "https://upload-apk.com/en/RJblrQx0W8fBbRN",
+    github: "https://github.com/Loydie16/Nutritional-Kiosk-Mobile-App",
+  },
+  {
+    title: "Aorify Mobile App",
+    description:
+      "This is a clone project from JavaScript Mastery on YouTube to further enhance my skills in mobile development using React Native. Even though this is a clone, I am the one who coded the save video feature.",
+    image: AorifyMobileApp,
+    techStack: ["React Native", "Expo", "Nativewind", "AppWrite"],
+    link: "https://upload-apk.com/en/RJblrQx0W8fBbRN",
+    github: "https://upload-apk.com/en/g7x0LSMHo4gpZ9R",
   },
 ];
 

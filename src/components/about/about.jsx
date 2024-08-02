@@ -19,7 +19,7 @@ export default function About() {
   const size = isHovered ? 400 : 0;
 
   return (
-    <section className="md:min-h-screen  flex-col flex items-center p-4 md:p-20 xl:px-40 justify-center bg-[#edede5] font-nunito_sans">
+    <section className="md:min-h-screen  flex-col flex items-center p-4 md:p-20 xl:px-40 justify-center bg-[#edede5] font-nunito_sans pb-28">
       <p className="font-extrabold text-xl tracking-[4px] text-start w-full mb-4 text-[#5c5b5b]">
         <span className="text-[#ec4e39]">ABOUT</span> ME
       </p>
