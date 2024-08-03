@@ -44,7 +44,7 @@ export default function App() {
       <Techstack />
       <TechStackMobile />
       <Footer />
-      {/* <AnimatedCursor /> */}
+      <AnimatedCursor />
     </>
   );
 }

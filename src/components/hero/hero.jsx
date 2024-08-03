@@ -141,7 +141,7 @@ export default function Hero() {
               ellipseProps={null}
               svgProps={{ className: "rotating-text" }}
             />
-            <div className="absolute inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center text-[#5c5b5b] text-5xl animate-upAndDown font-bodoni_moda ">
               {/*  <Image
                 src="../../app/assets/scroll-down.svg"
                 alt="Scroll down arrow"
@@ -149,6 +149,7 @@ export default function Hero() {
                 height={60}
                 className="pointer-events-none"
               /> */}
+              ↓
             </div>
           </motion.div>
         </div>

@@ -37,11 +37,16 @@ module.exports = {
           "0%, 100%": { transform: "translateX(0)" },
           "50%": { transform: "translateX(-10px)" },
         },
+        upAndDown: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         rightAndLeft: "rightAndLeft 1s infinite",
+        upAndDown: "upAndDown 1s infinite",
       },
     },
     fontFamily: {

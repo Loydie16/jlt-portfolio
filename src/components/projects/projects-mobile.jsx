@@ -91,6 +91,7 @@ export default function ProjectsMobile() {
               src={project.image}
               alt={project.title}
               layout="fill"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="absolute inset-0 p-2 rounded"
             />
           </div>

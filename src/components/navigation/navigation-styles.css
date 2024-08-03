@@ -1,0 +1,24 @@
+.hover-underline-animation {
+  position: relative;
+  color: #8e6e35; /* Initial text color */
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; /* Thickness of the underline */
+  bottom: -2px; /* Position of the underline */
+  left: 50%;
+  background-color: #8e6e35; /* Color of the underline */
+  transition: width 0.3s ease, left 0.3s ease; /* Animation effects */
+}
+
+.hover-underline-animation:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.hover-underline-animation:hover {
+  color: #d1d5db; /* Text color on hover (gray-300) */
+}

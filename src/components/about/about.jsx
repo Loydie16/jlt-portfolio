@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 
 
 const paragraph =
-  "A 22-year-old Computer Engineering graduate who is passionate about creating user-friendly and visually appealing websites, focusing on innovative design.";
+  "A 22-year-old Computer Engineering graduate passionate about creating user-friendly, visually appealing websites using the latest technologies and design trends.";
 const paragraph1 =
-  "With experience as a web developer intern, I’ve gained valuable skills in web design and development. Check my resume for more details.";
+  " I am actively seeking an entry-level position where I can apply and contribute my web development and design skills to a dynamic team and grow professionally. PLEASE HIRE ME :(";
 
 export default function About() {
 
