@@ -23,7 +23,7 @@ export default function Hero() {
     <>
       <main className="flex-col min-h-screen w-full bg-[#edede5]  bg-grid-black/[0.05] relative flex items-center justify-center py-1">
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#edede5] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#edede5] bg-[#edede5] [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
 
         {/* For the mask */}
         <motion.div

@@ -109,7 +109,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <section className="hidden lg:block z-0 min-h-screen scroll-section-outer overflow-hidden bg-[#0d1117]">
+    <section className="hidden lg:block z-0 min-h-screen scroll-section-outer overflow-hidden bg-[#000000]">
       <div ref={triggerRef} className="relative">
         <div className="absolute ml-20 w-fill">
           <span className="text-[#8e6e35] font-bodoni_moda xl:text-[100px] lg:text-[80px]">
@@ -156,7 +156,7 @@ export default function Projects() {
                     {project.description}
                   </p>
                   <div className="mt-2">
-                    <div className="flex gap-4">
+                    <div className="flex gap-4 flex-wrap">
                       {project.techStack.map((tech, index) => (
                         <span
                           className="bg-[#e3dacd] text-[#3a3a3a] font-semibold px-2 rounded-md"

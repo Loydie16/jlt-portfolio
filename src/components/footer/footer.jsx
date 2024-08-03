@@ -4,7 +4,7 @@ import Content from "./footer-content";
 
 export default function Footer() {
   return (
-    <div
+    <section
       className="relative h-[800px]"
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
@@ -13,6 +13,6 @@ export default function Footer() {
           <Content />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

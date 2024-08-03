@@ -56,7 +56,7 @@ export default function Home() {
   ];
 
   return (
-    <section className="h-auto lg:hidden flex-col justify-center items-center bg-[#edede5] pb-6 text-[#5c5b5b] pt-52">
+    <section className="h-auto lg:hidden flex-col justify-center items-center bg-[#edede5] pb-10 text-[#5c5b5b] pt-20">
       <p className="text-start  w-[80%] text-6xl lg:text-9xl font-extrabold font-nunito_sans m-auto">
         Tech <span className="text-[#ec4e39]">Stack</span>
       </p>
