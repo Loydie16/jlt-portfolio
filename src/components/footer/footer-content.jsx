@@ -93,7 +93,7 @@ const Section3 = () => {
       <div className="flex mt-16 md:gap-20 items-center md:justify-between justify-center gap-10 flex-wrap  ">
         <div className="flex justify-center items-center">
           <h1 className="text-[#8e6e35] font-nunito_sans font-bold">
-            &copy; JLT Dev.
+            &copy; JLT Dev. 2024.
           </h1>
         </div>
 

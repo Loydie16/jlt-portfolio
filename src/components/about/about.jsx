@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 
 const paragraph =
-  "A 22-year-old Computer Engineering graduate passionate about creating user-friendly, visually appealing websites using the latest technologies and design trends.";
+  "A 22-year-old Computer Engineering fresh graduate passionate about creating user-friendly, visually appealing websites using the latest technologies and design trends.";
 const paragraph1 =
   "I am actively seeking an entry-level position where I can apply and contribute my web development skills to a dynamic team and grow professionally.";
 
@@ -19,7 +19,7 @@ export default function About() {
   const size = isHovered ? 400 : 0;
 
   return (
-    <section className="md:min-h-screen  flex-col flex items-center p-4 md:p-20 xl:px-40 justify-center bg-[#edede5] font-nunito_sans py-28">
+    <section className="md:min-h-screen  flex-col flex items-center p-4 md:p-20 xl:px-40 justify-center bg-[#edede5] font-nunito_sans pb-20">
       <p className="font-extrabold text-xl tracking-[4px] text-start w-full mb-4 text-[#5c5b5b]">
         <span className="text-[#ec4e39]">ABOUT</span> ME
       </p>

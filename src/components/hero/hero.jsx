@@ -41,9 +41,9 @@ export default function Hero() {
           >
             <motion.p
               className="text-xs sm:text-lg md:text-2xl font-bisdak mb-10"
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 4.5 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 5 }}
             >
               BUT CAN DO FULLSTACK
             </motion.p>
@@ -60,15 +60,15 @@ export default function Hero() {
               className="text-[15vw]"
               initial={{ opacity: 0, y: 300 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 3.7 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 4 }}
             >
               ME &quot;LOYD&quot;
             </motion.span>
             <motion.p
               className="text-xs sm:text-lg md:text-2xl font-bisdak mt-10"
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 5 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 5.5 }}
             >
               THIS IS WHERE I LIVE
             </motion.p>
@@ -85,9 +85,9 @@ export default function Hero() {
           <div className="flex flex-col items-center justify-center tracking-tighter leading-[0.76] font-bodoni_moda">
             <motion.p
               className="text-xs sm:text-lg md:text-2xl font-bisdak mb-10 text-[#5c5b5b]"
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 4.5 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 5 }}
             >
               FRONT-END DEVELOPER
             </motion.p>
@@ -104,15 +104,15 @@ export default function Hero() {
               className="text-[15vw] text-[#5c5b5b]"
               initial={{ opacity: 0, y: 300 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 3.7 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 4 }}
             >
               TALAGTAG
             </motion.span>
             <motion.p
               className="text-xs sm:text-lg md:text-2xl font-bisdak mt-10 text-[#5c5b5b]"
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.5, ease: "easeOut", delay: 5 }}
+              transition={{ duration: 2.5, ease: "easeOut", delay: 5.5 }}
             >
               MUNTINLUPA, PH
             </motion.p>
@@ -121,9 +121,9 @@ export default function Hero() {
           {/* Container for curved text and icon */}
           <motion.div
             className="relative w-[122px] h-[122px] flex items-center justify-center"
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 2.5, ease: "easeOut", delay: 5 }}
+            transition={{ duration: 2.5, ease: "easeOut", delay: 5.5 }}
           >
             <ReactCurvedText
               width="122"

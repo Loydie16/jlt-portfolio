@@ -13,6 +13,8 @@ import AorifyMobileApp from "../../app/assets/project-imgs/AorifyMobileApp.png";
 import Button from "../../components/button/button";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const projects = [
   {
@@ -83,6 +85,7 @@ const projects = [
 export default function Projects() {
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
+  AOS.init();
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -111,7 +114,12 @@ export default function Projects() {
   return (
     <section className="hidden lg:block z-0 min-h-screen scroll-section-outer overflow-hidden bg-[#000000]">
       <div ref={triggerRef} className="relative">
-        <div className="absolute ml-20 w-fill">
+        <div
+          className="absolute ml-20 w-fill"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
+        
+        >
           <span className="text-[#8e6e35] font-bodoni_moda xl:text-[100px] lg:text-[80px]">
             PERSONAL PROJECTS
           </span>
@@ -124,6 +132,9 @@ export default function Projects() {
             <div
               key={index}
               className="scroll-section h-screen w-screen flex justify-center items-center gap-2"
+              data-aos="zoom-in-left"
+              data-aos-duration="1500"
+              
             >
               <div className="flex flex-col gap-4 justify-end h-[60%]">
                 <Button

@@ -1,7 +1,10 @@
 "use client";
 import Title from "./techstack-title";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  AOS.init();
   const projects = [
     {
       title1: "Programming",
@@ -57,10 +60,19 @@ export default function Home() {
 
   return (
     <section className="min-h-screen hidden lg:flex flex-col justify-center items-center bg-[#edede5] text-[#5c5b5b] pb-20">
-      <p className="text-start mt-20 mb-10 w-[80%] text-7xl lg:text-9xl font-bold  font-nunito_sans text-[#5c5b5b]">
+      <div
+        className="text-start mt-20 mb-10 w-[80%] text-7xl lg:text-9xl font-bold  font-nunito_sans text-[#5c5b5b]"
+        data-aos="zoom-in-right"
+        data-aos-duration="1500"
+      >
         Tech <span className="text-[#ec4e39]">Stack</span>
-      </p>
-      <div className="w-[80%] h-full md:h-auto font-nunito_sans font-thin">
+      </div>
+      <div
+        className="w-[80%] h-full md:h-auto font-nunito_sans font-thin"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         {projects.map((project, index) => (
           <Title key={index} project={project} />
         ))}

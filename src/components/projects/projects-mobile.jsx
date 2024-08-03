@@ -11,6 +11,8 @@ import AorifyMobileApp from "../../app/assets/project-imgs/AorifyMobileApp.png";
 import Button from "../../components/button/button";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const projects = [
   {
@@ -79,13 +81,23 @@ const projects = [
 ];
 
 export default function ProjectsMobile() {
+  AOS.init();
   return (
     <section className="block lg:hidden z-0 min-h-screen scroll-section-outer overflow-hidden bg-[#0d1117] px-4 py-8">
-      <h2 className="text-[#8e6e35] font-bodoni_moda text-4xl sm:text-5xl mb-8 text-center">
+      <h2
+        className="text-[#8e6e35] font-bodoni_moda text-4xl sm:text-5xl mb-8 text-center"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+      >
         PERSONAL PROJECTS
       </h2>
       {projects.map((project, index) => (
-        <div key={index} className="flex flex-col items-center mb-12 md:px-32">
+        <div
+          key={index}
+          className="flex flex-col items-center mb-12 md:px-32"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
           <div className="relative w-full h-64 rounded-xl overflow-hidden bg-[#e3dacd] mb-4">
             <Image
               src={project.image}
