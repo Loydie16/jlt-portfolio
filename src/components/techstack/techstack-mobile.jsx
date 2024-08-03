@@ -1,10 +1,8 @@
 "use client";
 import StackIcon from "tech-stack-icons";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 export default function Home() {
-  AOS.init();
   const projects = [
     {
       title1: "Programming",

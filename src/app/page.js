@@ -11,12 +11,15 @@ import Footer from "@/components/footer/footer.jsx";
 import AnimatedCursor from "react-animated-cursor";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "../components/preloader/preloader.jsx";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function App() {
-
+  
    const [isLoading, setIsLoading] = useState(true);
 
    useEffect(() => {
+    AOS.init();
      (async () => {
        /* const LocomotiveScroll = (await import("locomotive-scroll")).default;
 

@@ -11,8 +11,7 @@ import AorifyMobileApp from "../../app/assets/project-imgs/AorifyMobileApp.png";
 import Button from "../../components/button/button";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 const projects = [
   {
@@ -81,7 +80,7 @@ const projects = [
 ];
 
 export default function ProjectsMobile() {
-  AOS.init();
+
   return (
     <section className="block lg:hidden z-0 min-h-screen scroll-section-outer overflow-hidden bg-[#0d1117] px-4 py-8">
       <h2

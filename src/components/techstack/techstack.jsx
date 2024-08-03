@@ -1,10 +1,7 @@
 "use client";
 import Title from "./techstack-title";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function Home() {
-  AOS.init();
   const projects = [
     {
       title1: "Programming",

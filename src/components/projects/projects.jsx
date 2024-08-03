@@ -13,8 +13,7 @@ import AorifyMobileApp from "../../app/assets/project-imgs/AorifyMobileApp.png";
 import Button from "../../components/button/button";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
 import { FaGithub } from "react-icons/fa";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 const projects = [
   {
@@ -85,7 +84,7 @@ const projects = [
 export default function Projects() {
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
-  AOS.init();
+  
 
   gsap.registerPlugin(ScrollTrigger);
 

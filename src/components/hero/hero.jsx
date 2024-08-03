@@ -6,7 +6,7 @@ import "./hero.css";
 import useMousePosition from "../../app/utils/useMousePosition";
 import ReactCurvedText from "react-curved-text";
 import scrollDownSVG from "../../app/assets/scroll-down.json";
-/* import Lottie from "lottie-react"; */
+
 
 
 export default function Hero() {
