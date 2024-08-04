@@ -64,7 +64,7 @@ const projects = [
   {
     title: "Nutrikiosk Mobile App",
     description:
-      "This is the mobile application that I developed for our thesis project. It aims to provide users with nutritional information and help them maintain a healthy lifestyle.",
+      "This is the mobile application that I developed for our thesis project. It aims to provide users with their nutritional information with a guidance of artificial intelligence to help them maintain a healthy lifestyle.",
     image: NutrikioskMobileApp,
     techStack: ["React Native", "Expo", "Nativewind", "Firebase"],
     link: "https://upload-apk.com/en/RJblrQx0W8fBbRN",
