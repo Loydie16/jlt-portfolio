@@ -38,8 +38,8 @@ module.exports = {
           "50%": { transform: "translateX(-10px)" },
         },
         upAndDown: {
-          "0%, 100%": { transform: "translateY(0)" },
-          "50%": { transform: "translateY(-10px)" },
+          "0%, 100%": { transform: "translateY(-8px)" },
+          "50%": { transform: "translateY(7px)" },
         },
       },
       animation: {
