@@ -35,6 +35,20 @@ export const metadata = {
   title: "JLT Dev Portfolio",
   description:
     "Welcome to Jon Loyd T. Talagtag's professional portfolio. Explore my projects, skills, and experience in IT and web development. A recent graduate with a Bachelor's degree in Computer Engineering, I bring a strong foundation in technology and a passion for continuous learning and innovation.",
+  openGraph: {
+    title: "JLT Dev Portfolio",
+    description:
+      "Welcome to Jon Loyd T. Talagtag's professional portfolio. Explore my projects, skills, and experience in IT and web development. A recent graduate with a Bachelor's degree in Computer Engineering, I bring a strong foundation in technology and a passion for continuous learning and innovation.",
+    images: [
+      {
+        url: "https://jltdevportfolio.vercel.app/thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "JLT Dev Portfolio Thumbnail",
+      },
+    ],
+    type: "website",
+  },
 };
 
 

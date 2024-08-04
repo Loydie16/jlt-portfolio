@@ -63,7 +63,7 @@ export default function Home() {
         data-aos="zoom-in"
         data-aos-duration="1500"
       >
-        Tech <span className="text-[#ec4e39]">Stack</span>
+        Tech <span className="text-[#ec4e39]">Skills</span>
       </div>
       <div className="w-[80%] h-full md:h-auto font-nunito_sans font-thin flex  flex-col m-auto">
         {projects.map((project, projectIndex) => (

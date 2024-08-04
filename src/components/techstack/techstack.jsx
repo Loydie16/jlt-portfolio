@@ -62,7 +62,7 @@ export default function Home() {
         data-aos="zoom-in-right"
         data-aos-duration="1500"
       >
-        Tech <span className="text-[#ec4e39]">Stack</span>
+        Tech <span className="text-[#ec4e39]">Skills</span>
       </div>
       <div
         className="w-[80%] h-full md:h-auto font-nunito_sans font-thin"
