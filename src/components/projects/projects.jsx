@@ -76,8 +76,8 @@ const projects = [
       "This is a clone project from JavaScript Mastery on YouTube to further enhance my skills in mobile development using React Native. Even though this is a clone, I am the one who coded the save video feature.",
     image: AorifyMobileApp,
     techStack: ["React Native", "Expo", "Nativewind", "AppWrite"],
-    link: "https://upload-apk.com/en/RJblrQx0W8fBbRN",
-    github: "https://upload-apk.com/en/g7x0LSMHo4gpZ9R",
+    link: "https://upload-apk.com/en/g7x0LSMHo4gpZ9R",
+    github: "https://github.com/Loydie16/Aorify",
   },
 ];
 
